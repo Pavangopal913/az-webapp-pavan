@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_webapp_pavan</RootNamespace>
-    <ApplicationInsightsResourceId>/subscriptions/4c212149-3b33-4f88-a2ef-bc9a5fdb0ca7/resourcegroups/az-group-rg/providers/microsoft.insights/components/az-webapp-pavan</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/4c212149-3b33-4f88-a2ef-bc9a5fdb0ca7/resourcegroups/az-group-rg/providers/microsoft.insights/components/az-webapp-appinsights-pavangopal</ApplicationInsightsResourceId>
     <UserSecretsId>e4497e36-68c7-4021-af44-69f60300eec2</UserSecretsId>
   </PropertyGroup>
 

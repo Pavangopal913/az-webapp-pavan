@@ -36,7 +36,7 @@
     },
     {
       "type": "Microsoft.Resources/deployments",
-      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('az-webapp-pavan', subscription().subscriptionId)))]",
+      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('az-webapp-appinsights-pavangopal', subscription().subscriptionId)))]",
       "resourceGroup": "[parameters('resourceGroupName')]",
       "apiVersion": "2019-10-01",
       "dependsOn": [
@@ -50,7 +50,7 @@
           "resources": [
             {
               "kind": "web",
-              "name": "az-webapp-pavan",
+              "name": "az-webapp-appinsights-pavangopal",
               "type": "microsoft.insights/components",
               "location": "[parameters('resourceLocation')]",
               "properties": {},
